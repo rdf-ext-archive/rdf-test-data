@@ -1,6 +1,6 @@
 {
   "name": "rdf-test-data",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "description": "Test data for RDF parsers, serializers and stores",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/rdf-ext/rdf-test-data/issues"
   },
-  "homepage": "https://github.com/rdf-ext/rdf-test-data"
+  "homepage": "https://github.com/rdf-ext/rdf-test-data",
+  "dependencies": {
+    "rdf-parser-n3": "0.1.0"
+  }
 }

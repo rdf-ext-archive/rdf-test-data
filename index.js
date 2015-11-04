@@ -90,11 +90,11 @@ function listGraph () {
 
 function tbbtGraph () {
   if (process.browser) {
-    return testUtils.p.readFile('support/tbbt.nt').then(function (content) {
+    return testUtils.readFile('support/tbbt.nt').then(function (content) {
       return N3Parser.parse(content);
     })
   } else {
-    return testUtils.p.readFile('node_modules/tbbt-ld/dist/tbbt.nt', __dirname).then(function (content) {
+    return testUtils.readFile('node_modules/tbbt-ld/dist/tbbt.nt', __dirname).then(function (content) {
       return N3Parser.parse(content);
     })
   }

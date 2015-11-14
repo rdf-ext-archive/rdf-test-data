@@ -1,6 +1,6 @@
 {
   "name": "rdf-test-data",
-  "version": "0.3.0-rc1",
+  "version": "0.3.0-rc2",
   "description": "Test data for RDF parsers, serializers and stores",
   "main": "index.js",
   "scripts": {
@@ -22,8 +22,9 @@
   },
   "homepage": "https://github.com/rdf-ext/rdf-test-data",
   "dependencies": {
-    "rdf-ext": "0.3.0-rc1",
-    "rdf-parser-n3": "0.3.0-rc1",
-    "rdf-test-utils": "0.3.0-rc1"
+    "rdf-ext": "^0.3.0-rc1",
+    "rdf-parser-n3": "^0.3.0-rc1",
+    "rdf-test-utils": "^0.3.0-rc1",
+    "tbbt-ld": "^0.0.2"
   }
 }

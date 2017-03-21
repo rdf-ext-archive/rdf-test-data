@@ -20,19 +20,7 @@
   },
   "homepage": "https://github.com/rdf-ext/rdf-test-data",
   "dependencies": {
-    "babelify": "^7.3.0",
+    "nodeify-fetch": "^0.2.0",
     "rdf-ext": "git://github.com/rdf-ext/rdf-ext.git#develop"
-  },
-  "browserify": {
-    "transform": [
-      [
-        "babelify",
-        {
-          "presets": [
-            "es2015"
-          ]
-        }
-      ]
-    ]
   }
 }

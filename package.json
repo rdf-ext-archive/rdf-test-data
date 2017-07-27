@@ -1,6 +1,6 @@
 {
   "name": "rdf-test-data",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "description": "Test data for RDF parsers, serializers and stores",
   "main": "index.js",
   "scripts": {},

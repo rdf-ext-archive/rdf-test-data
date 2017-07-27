@@ -21,6 +21,6 @@
   "homepage": "https://github.com/rdf-ext/rdf-test-data",
   "dependencies": {
     "nodeify-fetch": "^0.2.0",
-    "rdf-ext": "git://github.com/rdf-ext/rdf-ext.git#develop"
+    "rdf-ext": "^1.0.0"
   }
 }
